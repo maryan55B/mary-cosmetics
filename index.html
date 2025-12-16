@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>Mary Cosmetics</title>
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fffaf3;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #d4af37, #f5e6a8);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff3d6;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #b8962e;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Products */
+.products {
+    padding: 40px 20px;
+}
+
+.products h2 {
+    text-align: center;
+    color: #b8962e;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.product {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    color: #b8962e;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+/* About */
+.about {
+    padding: 40px 20px;
+    background-color: #fff3d6;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #d4af37;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mary Cosmetics</h1>
+    <nav>
+        <a href=" ">მთავარი</a >
+        <a href="#">პროდუქტები</a >
+        <a href="#">ჩვენს შესახებ</a >
+        <a href="#">კონტაქტი</a >
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>სილამაზე იწყება ზრუნვით</h2>
+    <p>აღმოაჩინე ხარისხიანი და ეფექტური თავის მოვლის საშუალებები</p >
+</section>
+
+<section class="products">
+    <h2>ჩვენი პროდუქტები</h2>
+    <div class="product-grid">
+
+        <div class="product">
+            < img src="https://via.placeholder.com/300x300" alt="პროდუქტი">
+            <h3>სახის კრემი</h3>
+            <p>ატენიანებს და კვებავს კანს</p >
+            <p class="price">45 ₾</p >
+            <a class="buy-btn" href="#">შეკვეთა</a >
+        </div>
+
+        <div class="product">
+            < img src="https://via.placeholder.com/300x300" alt="პროდუქტი">
+            <h3>შამპუნი</h3>
+            <p>აძლიერებს თმას და ანიჭებს ბზინვარებას</p >
+            <p class="price">35 ₾</p >
+            <a class="buy-btn" href="#">შეკვეთა</a >
+        </div>
+
+        <div class="product">
+            < img src="https://via.placeholder.com/300x300" alt="პროდუქტი">
+            <h3>ტანის ლოსიონი</h3>
+            <p>რბილი და არომატული მოვლა</p >
+            <p class="price">40 ₾</p >
+            <a class="buy-btn" href="#">შეკვეთა</a >
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>ჩვენს შესახებ</h2>
+    <p>
+        Mary Cosmetics გთავაზობთ მაღალი ხარისხის თავის მოვლის საშუალებებს,
+        რომლებიც შექმნილია თქვენი სილამაზისა და კომფორტისთვის.
+    </p >
+</section>
+
+<footer>
+    © 2025 Mary Cosmetics | ყველა უფლება დაცულია
+</footer>
+
+</body>
+</html>
